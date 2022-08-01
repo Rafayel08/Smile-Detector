@@ -1,3 +1,6 @@
-cmake: 3.22.5
-Opencv: 4.6.0.66
-dlib: 19.24.0
+Required Libraries:
+cmake==3.22.5
+opencv-python==4.6.0.66
+dlib==19.24.0
+
+This program works mainly by using the face landmarks using HOG face detection. It finds the the lengths between the temples and the sides of your lips to compare them, and check whether the person smiling or not.
